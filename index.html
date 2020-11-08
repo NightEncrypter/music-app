@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+			integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>MUSIC APP</title>
+	</head>
+	<body>
+		<div class="main_div">
+			<div class="music_container">
+				<h2 id="title">JUMSHOT</h2>
+				<h3 id="artist">DAWIN JUMPSHOT</h3>
+				<div class="img_container">
+					<img src="images/manas 1.jpg" alt="" />
+				</div>
+				<audio src="music/manas 1.mp3"></audio>
+
+				<!-- EXTRA CONTENT -->
+				<!-- PROGRESS BAR -->
+				<div class="progressbar_container" id="progress_container">
+					<div class="progress_duration_meter">
+						<div id="current_time">0:00</div>
+						<div id="duration">2:44</div>
+					</div>
+					<div class="progress_div" id="progress_div">
+						<div class="progress" id="progress"></div>
+					</div>
+				</div>
+
+				<!-- controls -->
+				<div class="music_controls">
+					<i class="fas fa-backward backward" title="back" id="prev"></i>
+					<i class="fas fa-play main_button" title="play" id="play"></i>
+					<i class="fas fa-forward forward" title="forward" id="next"></i>
+				</div>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
